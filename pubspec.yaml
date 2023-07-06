@@ -1,22 +1,8 @@
-name: location
+name: location_parent
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
 
 
-packages:
-  - packages/**
-
-scripts:
-  generate:pigeon:
-    run: melos exec -- "flutter pub run pigeon --input ./pigeons/messages.dart"
-    select-package:
-      file-exists: "pigeons/messages.dart"
-
-  test:
-    run: melos exec -- "flutter test"
-    select-package:
-      dir-exists: "test"
-
-  format:
-    run: melos exec -- dart format -o write .
+dependencies:
+  melos: ^3.0.0-dev.0
