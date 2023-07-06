@@ -15,25 +15,18 @@ flutter:
         default_package: location_android
       ios:
         default_package: location_ios
-      # linux:
-      #   default_package: location_linux
-      macos:
-        default_package: location_macos
-      web:
-        default_package: location_web
       # windows:
       #   default_package: location_windows
 
 dependencies:
   flutter:
     sdk: flutter
-  location_android: ^5.0.0-dev.4
-  location_ios: ^5.0.0-dev.4
+  location_android: 
+  location_ios: 
   # location_linux:
   #   path: ../location_linux
-  location_macos: ^5.0.0-dev.3
   location_platform_interface: ^5.0.0-dev.3
-  location_web: ^5.0.0-dev.3
+
   # location_windows:
   #   path: ../location_windows
 
