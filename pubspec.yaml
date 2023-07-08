@@ -5,5 +5,4 @@ environment:
 
 
 dependencies:
-  location: 
-    path: packages/location/
+  location:
