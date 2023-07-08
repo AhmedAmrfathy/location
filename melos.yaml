@@ -1,7 +1,9 @@
 name: location
 
-packages:
-  - packages/**
+
+dependencies:
+  location: 
+    path: ../packages/location
 
 scripts:
   generate:pigeon:

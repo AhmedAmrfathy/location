@@ -25,7 +25,7 @@ dependencies:
   location_ios: 
   # location_linux:
   #   path: ../location_linux
-  location_platform_interface: ^5.0.0-dev.3
+  
 
   # location_windows:
   #   path: ../location_windows

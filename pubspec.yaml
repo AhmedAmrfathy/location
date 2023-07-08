@@ -5,4 +5,5 @@ environment:
 
 
 dependencies:
-  melos: ^3.0.0-dev.0
+  location: 
+    path: packages/location/
